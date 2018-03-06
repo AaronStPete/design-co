@@ -1,6 +1,5 @@
 html {
   height: 100%;
-  display: flex;
 }
 
 body {
@@ -11,7 +10,10 @@ body {
 
 /*This is for the menu at the top of the page*/
 .menu {
+display: flex;
 background-color: #F7F7F7;
 flex-direction: row;
+flex-wrap: nowrap;
 
 }
+
