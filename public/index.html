@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./screen.css">
   </head>
   <body>
-
+<!-- 
     <header class="menu">
       <img id="logo" src="./images/designco-logo.png" alt="DesignCo Logo" >
       <ul class="menu">
@@ -18,9 +18,21 @@
       </ul>
       <img id="search" src="./images/icon-search.png" alt="Search Magnifier">
     </header>
+ -->
+<!-- This is the new menu based solely on flex box -->
+
+    <div class="menu-wrap">
+        <img class="menu-item menu-logo" src="./images/designco-logo.png" alt="DesignCo Logo" >
+        <div class="menu-item menu-home"><a href="#">Home</a></div>
+        <div class="menu-item menu-contact"><a href="#">Contact</a></div>
+        <div class="menu-item menu-portfolio"><a href="#">Portfolio</a></div>
+        <div class="menu-item menu-about"><a href="#">About</a></div>
+        <img class="menu-item menu-search" src="./images/icon-search.png" alt="Search Magnifier">
+    </div>
+
 
     <body>
-      <div class="body-title">
+      <div class="body-wrap">
         <h2>The Details Matter</h2>
         <h3>We're making beautiful website layouts using modern methods</h3>
       </div>
