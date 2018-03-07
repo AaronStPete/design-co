@@ -41,6 +41,7 @@ justify-content: flex-start;
 
 #logo {
   justify-content: flex-start;
+  height: 80%;
 }
 
 #search {
